@@ -1,0 +1,12 @@
+{
+  "name": "shadeotc-example-fastify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "fastify": "^4.19.2",
+    "@shadeotc/sdk": "*"
+  }
+}

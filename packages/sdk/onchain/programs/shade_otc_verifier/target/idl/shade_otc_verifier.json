@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "name": "shade_otc_verifier",
+  "instructions": [
+    { "name": "submit_proof", "accounts": [], "args": [ { "name": "proof", "type": "bytes" }, { "name": "public_signals", "type": { "vec": "bytes" } } ] },
+    { "name": "verify_proof_onchain", "accounts": [], "args": [ { "name": "proof", "type": "bytes" }, { "name": "public_signals", "type": { "vec": "bytes" } } ] }
+  ]
+}
